@@ -1,0 +1,417 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    /*font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;*/
+}
+
+.slider {
+    width: 100%;
+    height: 600px;
+    background: url(../images/mainSlider.jpg)no-repeat top center;
+    float: left;
+    position: relative;
+}
+
+.header {
+    height: 55px;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    z-index: 9;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#headContainer {
+    height: 55px;
+    padding: 30px 0 0 0;
+}
+
+#mainLogo {
+    width: 170px;
+    float: left;
+}
+
+.mainMenu {
+    /*width:1000px;*/
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+
+.menuUl {
+    list-style-type: none;
+}
+
+.menuLi {
+    float: left;
+    padding: 0 10px;
+}
+
+    .menuLi a {
+        color: #ffb932;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 8px;
+    }
+
+    .menuLi > a:hover { /*üstüne geldiğinde beyaz olması ve altında kenarlık olması için*/
+        color: #ffffff;
+        border-bottom: 2px solid #fff;
+    }
+
+#sliderContainer {
+    color: #fff;
+    height: 400px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+    #sliderContainer h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 45px;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    #sliderContainer h2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    #sliderContainer a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 6px 15px;
+        text-decoration: none;
+        border: solid 2px #fff;
+        color: #fff;
+    }
+
+.service {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 530px;
+}
+
+#serviceContainer {
+    width: 1170px;
+    margin: 0 auto;
+    height: 370px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#serviceHead h1, #projectContainer h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#serviceHead p, #projectContainer p {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#serviceContent {
+    margin-top: 45px;
+    height: 430px;
+}
+
+.serviceItem {
+    float: left;
+    width: 250px;
+    margin: 0 17px;
+    text-align: left;
+    border-bottom: solid 3px #1f1f1f;
+}
+
+    .serviceItem h2 {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .serviceItem:hover {
+        border-bottom: solid 3px #ffb932;
+    }
+
+.serviceImage {
+    width: 95px;
+    height: 95px;
+    background: #f0f0f0;
+}
+
+    .serviceImage img {
+        margin: 31px;
+    }
+
+.section {
+}
+
+#wordSection {
+    width: 100%;
+    height: 225px;
+    position: relative;
+    float: left;
+    background: url(../images/background1.jpg) no-repeat top center;
+}
+
+    #wordSection p {
+        font-family: 'Playfair Display', serif;
+        font-size: 23px;
+        font-weight: 500;
+        margin-top: 100px;
+        text-align: center;
+        color: #fff;
+    }
+
+.project {
+    width: 100%;
+    height: 620px;
+    position: relative;
+    float: left;
+    background: #ededed;
+}
+
+#projectContainer {
+    height: 62px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.projectImage {
+    float: left;
+    margin: 15px;
+}
+
+.logos {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    float: left;
+    background: #fff;
+}
+
+#logoContainer {
+    height: 150px;
+    text-align: center;
+}
+
+.logoImage {
+    margin: 60px 20px;
+    width: 120px;
+}
+
+#testimonialContainer h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+}
+
+.testimonial {
+    width: 100%;
+    height: 550px;
+    background: url(../images/background3.jpg) no-repeat top center;
+    position: relative;
+    float: left;
+    color: #fff;
+}
+
+#testimonialContainer {
+    padding: 90px 0 50px 0;
+    text-align: center;
+}
+
+    #testimonialContainer span {
+        color: #ffb932;
+    }
+
+#dekor2 {
+    margin: 10px 0 30px 0;
+}
+
+#testimonialContainer p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px; /*satırlar arası mesafeyi açar*/
+}
+
+hr {
+    width: 45px;
+    font-weight: bold;
+    background: #fff;
+    height: 4px;
+}
+
+#testimonialContainer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.blog {
+    width: 100%;
+    height: 565px;
+    float: left;
+    background: #ededed;
+    position: relative;
+}
+
+#blogContainer {
+    text-align: center;
+}
+
+.blogMenu {
+    margin: 60px 10px;
+    float: left;
+    width: 245px;
+    height: 245px;
+    background: #fff;
+    position: relative;
+    margin-left: 30px;
+}
+
+    .blogMenu h2 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        line-height: 20px;
+        padding: 10px 10px;
+        color: #1f1f1f;
+    }
+
+    .blogMenu p {
+        font-size: 12px;
+        /*font-weight:100;*/
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        line-height: 20px;
+        padding: 10px 10px;
+    }
+
+#banner {
+    width: 100%;
+    height: 170px;
+    position: relative;
+    float: left;
+    background: url(../images/background2.jpg) no-repeat top center;
+}
+
+#bannerContainer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top:82px;
+    text-align:left;
+    color:#fff;
+    margin-left:30px;
+    float:left;
+}
+
+#bannerContainer a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px 31px;
+    text-decoration: none;
+    border: solid 2px #fff;
+    color: #fff;
+    margin-top: 75px;
+    float: right;
+    text-align: left;
+}
+
+.footer {
+    width: 100%;
+    height: 270px;
+    background: #1f1f1f;
+    position: relative;
+    float: left;
+}
+
+#footerContainer {
+    text-align: center;
+}
+
+#footerImage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sosyal {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin:0 5px;
+}
+
+#footerContainer p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#facebook {
+    background: url(../images/facebook.png) no-repeat top center;
+}
+
+#twitter {
+    background: url(../images/twitter.png) no-repeat top center;
+}
+
+#google {
+    background: url(../images/google-plus.png) no-repeat top center;
+}
+
+#linked {
+    background: url(../images/linked-in.png) no-repeat top center;
+}
+
+#facebook:hover {
+    background: url(../images/facebookHover.png) no-repeat top center;
+}
+
+#twitter:hover {
+    background: url(../images/twitterHover.png) no-repeat top center;
+}
+
+#google:hover {
+    background: url(../images/google-plusHover.png) no-repeat top center;
+}
+
+#linked:hover {
+    background: url(../images/linked-inHover.png) no-repeat top center;
+}
+.ilerle{
+    margin:0 auto;
+    width:180px;
+}
